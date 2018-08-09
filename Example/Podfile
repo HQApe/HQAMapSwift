@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HQAMapSwift_Example' do
+  pod 'HQAMapSwift', :path => '../'
+
+  target 'HQAMapSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
