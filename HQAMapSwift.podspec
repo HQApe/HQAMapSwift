@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HQAMapSwift'
-  s.version          = '0.1.0'
+  s.version          = '2.0.0'
   s.summary          = 'HQAMapSwift'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ HQAMapSwift,Swift 版本高德地图集成
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'HQApe' => 'ape.zhang@corp.to8to.com' }
-  s.source           = { :git => 'https://github.com/HQApe/HQAMapSwift.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/HQApe/HQAMapSwift.git', :branch => "dev" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
